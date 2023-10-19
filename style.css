@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#outer {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #800081;
+    margin: 100px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 10em;
+    height: 3em;
+    margin: 30px auto 0 auto;
+}
+
+button:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+#square {
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+}
+
+#rectangle {
+    height: 50px;
+    width: 100px;
+    /* margin-top: 25px; */
+    background-color: aliceblue;
+}
+
+#circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+#oval {
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid aliceblue;
+}
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-top: 100px solid aliceblue;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+#triangle-topleft {
+    width: 0;
+    height: 0;
+    border-right: 100px solid aliceblue;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+
+#triangle-topright {
+    width: 0;
+    height: 0;
+    border-left: 100px solid aliceblue;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+
+#triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid aliceblue;
+    border-right: 100px solid transparent;
+}
+
+#triangle-bottomright {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid aliceblue;
+    border-left: 100px solid transparent;
+}
+
